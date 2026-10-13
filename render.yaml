@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: api-entrenadores-hateoas
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
